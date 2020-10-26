@@ -6,4 +6,15 @@ console.log("Good Morning");
 
 var name= "Zahe Hasan"
 
-console.log( typeof name);
+console.log( typeof name); //  typeof means data type
+
+var test = true
+var hel = false
+
+console.log( typeof test);
+
+var st="Give me break"
+
+var tst =st
+
+console.log(tst);
