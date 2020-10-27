@@ -12,5 +12,13 @@ console.log(bendara);
 bazarList[1]="Mula"
 console.log(bazarList);
 
+//position value identify
+
+var name=["Zahed","Promi","Mitul","baset","Badal","Wakil","Heda","Shawwa","Nun"]
+ var position= name.indexOf("Mitul");
+ console.log(position);
+ var position = name.indexOf("Nabia");
+ console.log(position);
+
 
 
