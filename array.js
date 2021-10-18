@@ -1,24 +1,22 @@
-var bazarList=["Alo","Potol","Mango","Suger","oil","Dal"]
-console.log(bazarList[3]);
+var age=[12,17,19,20,100]
 
-// pick up array element
+console.log(age)
 
-var bazarList=["Alo","Potol","Mango","Suger","oil","Dal"]
+console.log(age[2])
 
-var bendara=bazarList[3];
-console.log(bendara);
-// vlaue add in array
+var mariam=age[2]=22;
+console.log(mariam)
 
-bazarList[1]="Mula"
-console.log(bazarList);
+console.log(age)
 
-//position value identify
-
-var name=["Zahed","Promi","Mitul","baset","Badal","Wakil","Heda","Shawwa","Nun"]
- var position= name.indexOf("Mitul");
- console.log(position);
- var position = name.indexOf("Nabia");
- console.log(position);
+var test =age.indexOf(22);
+console.log(test)
 
 
+// array push
 
+age.push(14,19,100);
+console.log(age.length);
+
+age.pop();
+console.log(age);
